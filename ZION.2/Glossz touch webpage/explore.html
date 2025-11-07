@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ 
+            background:linear-gradient(rgb(51, 38, 124), rgb(167, 107, 235));
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+        display: grid;
+        border:1px black hidden;
+        grid-template-rows: 60px 250px 170px 170px 130px;
+        grid-template-columns: 300px 300px 300px ;
+        margin: 10px auto;
+        padding-top: 10px;
+        justify-content: center;
+        column-gap: 10px;
+        row-gap: 20px;
+        margin-left: 50px;
+        }
+        .glossy{
+            grid-column-start: 5;
+            grid-column-end: 1;
+            color: white;
+            background:linear-gradient( rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705) );
+            padding: 1px;
+            text-align: left;
+            border-radius: 10px;
+            padding-bottom: 10px;
+            
+        }
+        .welcome{
+            background:linear-gradient(  rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705));
+            grid-column-start: 5;
+            grid-column-end: 1;
+            border-radius: 10px;
+            
+        }
+       
+        .m{
+            grid-column-start: 1;
+            grid-column-end: 1;
+           background:linear-gradient(  rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705)) transparent;
+            text-align: center;
+            border-radius: 5px;
+            border-radius: 10px;
+        }
+        .f{
+            text-align: center;
+            padding: 10px;
+            background:linear-gradient(  rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705))transparent;
+            grid-column-start: 3;
+            grid-column-end: 2;
+            border-radius: 10px;
+        }
+        .y{
+            text-align: center;
+            background:linear-gradient(  rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705));
+            grid-column-start: 5; 
+            grid-column-end: 3;
+            border-radius: 10px;
+        }
+        .i{
+            background: linear-gradient( rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705) );
+            grid-column-start: 1;
+            grid-column-end: 1;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .g{
+            background:linear-gradient(  rgb(55,55,70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705));
+            grid-column-start: 3;
+            grid-column-end: 2;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .h{
+            background:linear-gradient(  rgb(55, 55, 70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705));
+            grid-column-start: 5;
+            grid-column-end: 3;
+            text-align: center;
+            border-radius: 10px;
+            
+        }
+        .a{
+            background:linear-gradient( rgb(55, 55, 70), rgb(85, 85, 112),rgba(0, 0, 0, 0.705));
+            grid-column-start: 5;
+            grid-column-end: 1;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="glossy">
+            <p style="font-weight: 600;padding-left: 20px;">Glossy Touch <b style="margin-left: 300px;font-weight: 100;">Home</b> <b style="margin-left: 25px;color: white;font-weight: 100;">About</b> <b style="margin-left: 25px;color: white;font-weight: 100;">Services</b> <b style="margin-left: 25px;color: white;font-weight: 100;">Contact</b></p>
+            
+        </div>
+        <div class="welcome">
+            <img src=" /ZION.2/Glossz touch webpage/images/Screenshot_20250915-103752.png" alt="" style="width: 150px;height: 150px;border-radius: 20px;margin-left: 30px;margin-top: 40px;">
+           <p class="l" style="font-size:30px;font-weight: bold;color: white;padding-left: 400px;margin-top: 1px;">  Welcome to the future</p>
+           
+            <button style="width: 150px;border-radius: 25px;height: 40px;margin-left: 400px;color: white;background-color: rgb(156, 156, 209);">Learn More</button>
+            
+
+           
+        </div>
+       
+        <div class="m">
+            <p style="color: white;font-weight: 900;font-size: 25px;">Modern Design</p>
+            <p style="color:white;">Beautiful glass morphism effects with <br>backdrop blur and translucent </p>
+        </div>
+        <div class="f">
+            <p style="color: white;font-weight: 900;font-size: 25px;">Fast Performance</p>
+            <p style="color: white;">Optimized animations and effects that maintain smooth 60fps performance </p>
+        </div>
+        <div class="y">
+            <p style="color: white;font-weight: 900;font-size: 25px;">Responsive</p>
+            <p style="color:white;">Fully Responsive design that adapts <br> beautifully to any screen size</p>
+        </div>
+        <div class="i">
+            <p style="color: white;font-weight: 900;font-size: 25px;">Interactive UI</p>
+            <p style="color: white;">Engaging hover effects, smooth transitions</p>
+        </div>
+        <div class="g">
+            <p style="color: white;font-weight: 900;font-size: 25px;">Secure and Safe</p>
+            <p style="color: white;">Built with modern security standards and <br> best practices</p>
+        </div>
+        <div class="h">
+            <p style="color: white;font-weight: 900;font-size: 25px;margin-bottom: 1px;">Easy Integration</p>
+            <p style="color: white;margin-bottom: 1px;margin-top: 1px;">Simple to implement and customise for  any <br> project with clean, well-documented code </p>
+        </div>
+        <div class="a">
+            <p style="padding-bottom:20px; margin-left: 250px;color: white;border-bottom: 1px solid rgb(156, 156, 209);width: 500px;">About us <b style="color:white; margin-left: 20px;font-weight: 100;">Privacy Policy</b> <b style="margin-left: 20px;font-weight: 100;">Terms of Service</b> <b style="margin-left: 20px;font-weight: 100;">XML Site Map</b></p>
+            <p style="color: white;margin-left: 350px;padding-bottom: 80px;">2025 Glossy Touch. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

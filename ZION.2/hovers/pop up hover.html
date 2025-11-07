@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hover-container {
+            position: relative;
+            display: inline-block;
+            height: 300px;
+            width: 400px;
+            background-color: orange;
+            margin: 50px auto;
+        }
+        .popup{
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .hover-container:hover .popup {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover-container">
+        Hover Over me!
+        <div class="popup">
+            this is a popup
+        </div>
+    </div>
+</body>
+</html>

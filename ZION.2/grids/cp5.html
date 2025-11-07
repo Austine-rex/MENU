@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 860px;
+            height: 500px;
+            border: 2px gray solid;
+            padding: 40px;
+            margin: 50px auto;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: auto auto ;
+            grid-template-rows: auto 370px;
+        }
+        .a{
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: left;
+        padding: 5px;
+        }
+        .b{
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            padding: 5px;
+        }
+        .c{
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            padding:5px;
+        }
+        .d{
+            border-radius: 10PX;
+            background-color: black;
+            font-size: 40px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="a">
+        <p>A</p>
+    </div>
+    <div class="b">
+        <p>B</p>
+    </div>
+    <div class="c">
+        <p>C</p>
+    </div>
+    <div class="d" style="display: grid;gap: 5px 5px;">
+        <p style="display: grid;border-radius: 10px;background-color: gray;grid-column-start: 1;grid-column-end: 7;grid-template-rows: 100px;margin-bottom: 1px;">E</p>
+        <p style="display: grid;background-color: gray;border-radius: 10px;grid-column-start: 1;grid-column-end: 4;grid-template-rows: 100px ;margin-top: 2px;">F</p>
+        <p style="display: grid;border-radius: 10px;background-color: gray;grid-template-rows: 100px;grid-column-start: 4;grid-column-end:7 ;margin-top: 2px;">G</p>
+    </div>
+    </div>
+</body>
+</html>

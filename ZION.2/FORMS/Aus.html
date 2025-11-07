@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            width: 570px;
+            height: 642px;
+            border: 1px black solid;
+            margin: 50px auto;
+            border-radius: 10px;
+        }
+         .p{
+            font-size: 25px;
+            font-weight: 800;
+            margin-left: 25px;
+            color: black;
+        }
+        p{
+            font-size: 19px;
+            font-weight: 600;
+            margin-left: 25px;
+            color: rgb(101, 192, 101);
+        }
+        .num:hover{
+            transition: background 0.3s;
+            background-color: rgb(209, 241, 209);
+            color: black;
+            cursor: pointer;
+        }
+        .num{
+           margin-left: 25px;
+           width: 0px;
+            background-color: rgb(54, 75, 54);
+            padding: 12px 12px;
+            color: white;
+
+        }
+        .num2:hover{
+            transition:  background 0.3s;
+            background-color: rgb(54, 75, 54);
+            color: white;
+            cursor: pointer;
+        }
+        .num2{
+            background-color: rgb(209, 241, 209);
+            padding: 12px 12px ;
+            width: 230px;
+            height: 35px;
+            
+        }
+        button{
+            padding: 12px;
+            text-align: center;
+            border-radius: 20px;
+            width: 400px;
+            margin-left: 25px;
+            border: none;
+            background-color: rgb(54, 75, 54);
+            
+        }
+        button:hover{
+           background-color: rgb(209, 241, 209);
+           transition: background 0.3s;
+           cursor: pointer;
+           transform: scale(0.95);
+        }
+        .num3{
+             background-color: rgb(209, 241, 209);
+            padding: 12px 12px ;
+            width: 60px;
+            text-align: center;
+            height: 15px;
+            border-radius: 4px;
+        }
+        .num3:hover{
+            transition:  background 0.3s;
+            background-color: rgb(54, 75, 54);
+            color: white;
+            cursor: pointer; 
+        }
+        .button2{
+            padding: 12px;
+        
+            border: none;
+            background-color: rgb(54, 75, 54);
+            text-align: center;
+            color: white;
+            margin-left: 25px;
+            width: 230px;
+            border-radius: 0px;
+            
+        }
+        .button2:hover{
+            transition: background 0.3s;
+            background-color: rgb(209, 241, 209);
+            color: black;
+            cursor: pointer;
+        }
+        .button3{
+            
+            padding: 12px;
+            border:none;
+            background-color: rgb(209, 241, 209);
+            text-align: center;
+            color: black;
+            width: 230px;
+            border-radius: 0px;
+            
+        }
+        .button3:hover{
+         transition: background 0.3s;
+         background-color: rgb(54, 75, 54);
+         color: white;
+         cursor: pointer;
+        }
+        
+        
+        
+    </style>
+</head>
+<body >
+    <div class="container">
+       <p class="p" style="margin-bottom: 10px;">Make a donation</p>
+       <p style="margin-bottom: 10px;margin-top: 10px;">Donation frequency</p>
+       <div >
+       <button class="button2"  >On Time</button>
+       <button class="button3" style="margin-left: 1px;transform: translateX(-6px);" >Monthly</button>
+       </div>
+       <div>
+        <p class=".p">Select an amount</p>
+       </div>
+       <div style="margin-left: 25px;justify-content: space-between;width: 400px;display: flex;flex-direction: row;">
+        <span class="num3">$10</span>
+        <span class="num3">$25</span>
+        <span class="num3">$30</span>
+        <span class="num3">$40</span>
+       </div>
+       <div style="margin-left: 25px;justify-content: space-between;display: flex;flex-direction: row;margin-top: 10px;">
+        <span class="num3">$45</span>
+        <span class="num3">$50</span>
+        <input type="text" placeholder="Current amount" style="background-color: rgb(209, 241, 209);margin-right:119px ;width: 205px;">
+       </div>
+       <div >
+        <p class=".p">Personal Info</p>
+        <input type="text " placeholder="Jack Doe" style="width: 230px;height: 35px;background-color: rgb(209, 241, 209);margin-left: 25px;"> <input type="Email" placeholder="JackDoe@gmail.com" style="width: 230px;height: 35px;background-color: rgb(209, 241, 209);">
+       </div>
+       <div>
+        <p class=".p" >Choose Payment</p>
+        <p style="color: black;font-weight: 400;"><input type="radio" >Debit or Credit card</p>
+        <p style="color: black;font-weight: 400;"><input type="radio">Paypal</p>
+       </div>
+       <button class="num" style="width: 450px;margin-bottom: 1px;">Submit Donation</button>
+    </div>
+</body>
+</html>

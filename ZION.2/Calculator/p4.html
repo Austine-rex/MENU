@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: white groove;
+            width: 300px;
+            height: 450px;
+            margin: 50px auto;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 1px 0px 4px 3px rgb(159, 158, 158);
+        }
+        table, th, td {
+            margin: auto;
+            text-align: center;
+            border-radius: 55%;
+        }
+        th{
+            width: 270px;
+            height: 100px;
+            border-radius: 20px;
+            border: 1px black currentColor;
+            background: linear-gradient(to right, rgb(229, 229, 153), rgb(232, 100, 100));
+
+        }
+        table{
+            margin-top: 20px; 
+            width: 270px;
+            height: 150px;
+            border-spacing: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 2px;
+            border-radius: 50px;
+
+        }
+        td{
+            border: 1px black hidden;
+            background-color: pink;
+            text-align: center;
+            padding: 10px;
+            background-color: #ffabc7;
+            cursor: pointer;
+            transition: background 0.5s;
+            width: 40px;
+        }
+        .equal:hover{
+            background-color: #bc471d;
+            box-shadow: 3px 3px 3px 1px rgb(163, 162, 162);
+        }
+        .equal{
+            padding: 10px;
+            border-radius: 30px;
+            text-align: center;
+            background-color: #f16e3e;
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+            transition: background 0.3s;
+            cursor: pointer;
+            width: 30px;
+        }
+        td:hover{
+            background-color: #f7a3b3;
+        }
+        .special:hover{
+            background-color: #181858;
+
+        }
+        .special{
+            transition: background 0.5s;
+            background-color: rgb(32, 32, 117);
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            width: 40px;
+        }
+    </style>
+</head>
+<body style="background-color: #ebe8e8;">
+    <div class="him">
+        <table>
+            <tr>
+                <th colspan="4"></th>
+            </tr>
+            <tr>
+                <td class="special "><i class="fa-solid fa-xmark"></i>X</td>
+                <td class="special">/</td>
+                <td class="special" style="width: 30px;">*</td>
+                <td class="special">+</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="special">-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="special">%</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td colspan="2" rowspan="2" class="equal">=</td>
+            </tr>
+            <tr>
+                <td style="background-color: white;border: 1.5px #ffbac7 solid;">.</td>
+                <td>0</td>
+                <td style="background-color: white;border: 1.5px #ffbac7 solid;">C</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

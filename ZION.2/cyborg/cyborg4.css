@@ -1,0 +1,149 @@
+body{
+      background:linear-gradient(rgb(14, 13, 13)) ;
+    overflow-x: hidden;
+    
+}
+.container{
+padding: 50px;
+height: 1200px;
+}
+.logo{
+   
+}
+input{
+    color: rgb(156, 155, 155);
+    width: 200px;
+   background-color: rgb(39, 37, 37);
+    border-radius: 30px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 300px;
+    transform: translateY(-20px);
+    text-align: center;
+    
+}
+.links{
+transform: translateX(1050px)translateY(-70px);
+
+}
+
+.border{
+    height: 2050px;
+    border-radius: 20px;
+    background-color: rgb(39, 37, 37);
+    transform: translateY(-40px);
+    width: 1585px;
+    padding: 40px;
+}
+.alan{
+   height: 600px;
+   padding: 10px;
+   padding-left: 10px;
+   background-color: black;
+   width: 1000px;
+   transform: translateY(50px)translateX(30px);
+   border-radius: 20px;
+  
+}
+.pic{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px;
+    column-gap: 20px;
+    transform: translateX(50px)translateY(-40px);
+}
+.top{
+    height: 580px;
+    padding: 20px;
+    background-color: black;
+    width: 450px;
+    border-radius: 20px;
+    transform: translateX(1030px)translateY(-530px);
+}
+.small{
+    display: grid;
+    grid-template-columns: 120px 150px;
+    grid-template-rows: 120px 120px 120px;
+    transform: translateY(-40px);
+}
+.view{
+    transform: translateX(160px);
+}
+.how{
+ text-align: center;
+ font-size: 50px;
+ font-weight: 900;
+ color: white;
+ margin-top: 150px;
+}
+.go{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    column-gap: 20px;
+    padding: 20px;
+    transform: translateX(60px)translateY(-350px);
+}
+.button{
+    background-color: rgb(226, 23, 226);
+    color: white;
+    width: 180px;
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 680px;
+    padding-top: 1px;
+    padding-bottom: 9px;
+    transform: translateY(-330px);
+}
+.button:hover {
+    background-color: white;
+    color: rgb(226, 23, 226);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.live{
+   height: 600px;
+   padding: 10px;
+   padding-left: 10px;
+   background-color: black;
+   width: 1390px;
+   margin-top: 50px;
+   margin-left: 75px;
+   border-radius: 20px;
+   transform: translateY(-350px);
+  
+}
+.fort{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 120px;
+    margin-left: 30px;
+    column-gap: 20px;
+    margin-bottom: 100px;
+    row-gap: 20px;
+}
+.button2{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgb(226, 23, 226);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-top: 1px;
+    margin-left: 510px;
+    margin-top: -30px;
+}
+.button2:hover {
+    background-color: white;
+    color: rgb(226, 23, 226);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.copy{
+    text-align: center;
+    color: white;
+}

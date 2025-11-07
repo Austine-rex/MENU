@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 900px;
+            height: 630px;
+            border: 2px gray solid;
+            margin: 50px auto;
+    
+        }
+        .container{
+            width: 757px;
+            height: 480px;
+            border: 2px gray solid;
+            margin: 50px auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: grid;
+            grid-template-columns:400px 0px auto;
+            grid-template-rows: 100px 350px ;
+            row-gap: 30px;
+
+        }
+        .one{
+            font-weight: 800;
+            text-align: left;
+            padding: 7px;
+            font-size: 30px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            grid-column-start: 6;
+            grid-column-end: 1;
+        }
+        .two{
+            text-align: left;
+            padding: 7px;
+            border-radius: 10PX;
+            color: white;
+            background-color: black;
+            font-weight: 800;
+            font-size: 30px;
+            grid-column-start: 3;
+            grid-column-end: 1;
+            column-gap: 100px;
+            row-gap: 30px;
+
+        }
+        .three{
+
+    
+            font-size: 30px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+    <div class="one">
+        <p>One</p>
+    </div>
+    <div class="two">
+        <p>Two</p>
+    </div>
+    
+    <div class="three" style="display: grid;column-gap: 66px;">
+        <p style="display: grid;border-radius: 10px;background-color: rgb(8, 8, 8);grid-column-start: 3;grid-column-end: 7;grid-template-rows: 130px;color: white;width: 210px;margin-top: 0px;">Three</p>
+        <p style="display: grid;background-color: rgb(3, 3, 3);border-radius: 10px;grid-column-start: 3;grid-column-end: 5;grid-template-rows: 150px ;color: white;">Four </p>
+        <p style="display: grid;border-radius: 10px;background-color: rgb(5, 5, 5);grid-template-rows: 150px;grid-column-start: 5;grid-column-end:7 ;color: white;">Five</p>
+    </div>
+    </div>
+    
+</body>
+</html>

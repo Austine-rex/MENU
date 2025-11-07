@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+            margin: 0px;
+        }
+        .container{
+           background: linear-gradient(rgb(10, 14, 238));
+            height: 550px;
+            border-radius: 0px 0px 90px 90px;
+            padding: 30px;
+
+        }
+        .lubox{
+            font-size: 18px;
+            transform: translateY(8px)translateX(50PX);
+        }
+        .box2{
+            transform: translateX(500px)translateY(-50px);
+        }
+        .sign{
+            background-color: orangered;
+            width: 150px;
+            height: 100px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .sign:hover{
+            background-color: rgb(83, 83, 223);
+            color: white;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+       .sign2 {
+         background-color: orangered;
+            width: 150px;
+            height: 100px;
+            border-radius: 20px;
+            padding: 10px;
+        } 
+        .sign2:hover{
+            background-color: rgb(83, 83, 223);
+            color: white;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .who{
+            background-color: orangered;
+            width: 60px;
+            margin-left: 100px;
+            height: 20px;
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        .who:hover{
+            background-color:rgb(83, 83, 223);
+            color: white;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .writing{
+            font-size: 19px;
+            transform: translateY(20px)translateX(50px);
+            color: white;
+        }
+        .w1{
+            transform: translateY(-30px);
+        }
+        .writing2{
+            transform: translateX(50px)translateY(-30px);
+            background-color: white;
+            color: gray;
+            border-radius: 20px;
+            width: 380px;
+            height: 30px;
+            padding-left: 5px;
+            margin-top: 50px;
+        }
+        .anime{
+         transform: translateX(900px)translateY(-320px);
+         width: 200px;
+         height: 400px;
+          border-radius: 20px;
+        }
+        .tiny4{
+            border-radius: 50px;
+            height: 50px;
+            width: 50px;
+            background-color: orangered;
+            color: white;
+            font-weight: 700;
+            text-align: center;
+            padding: 5px;
+            transform: translateX(888px)translateY(-452px);
+        }
+      .mice{
+        height: 150px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px gray;
+        transform: translateX(40px)translateY(-400px);
+      }
+      .mice2{
+         height: 150px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px gray;
+        transform: translateX(350px)translateY(-567px);
+      }
+      .mice3{
+         height: 150px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px gray;
+        transform: translateX(690px)translateY(-733px);
+      }
+      .mice4{
+         height: 150px;
+        width: 250px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px gray;
+        transform: translateX(1000px)translateY(-900px);
+      }
+        .another{
+        height: 400px;
+        padding: 30px;
+        transform: translateX(50px);
+        }
+        .another2{
+            font-weight: 600;
+            transform: translateY(130px);
+        }
+        .another3{
+       transform: translateX(1px)translateY(100px);
+        }
+        .another4{
+            transform: translateX(330px)translateY(-267px);
+        }
+        .another5{
+             transform: translateX(680px)translateY(-533px);
+        }
+        .another6{
+            transform: translateX(1000px)translateY(-800px);
+        }
+        .most{
+            height: 500px;
+            background-color: rgb(216, 214, 214);
+            border-radius: 60px 60px 60px 60px;
+            transform: translateY(250px);
+        }
+        .most2{
+              font-weight: 600;
+              height: 1700px;
+            transform: translateY(20px);
+            padding: 20px;
+            padding-bottom: 0px;
+        }
+        .last{
+        height: 400px;
+            padding: 30px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .cod{
+            transform: translateX(400px)translateY(-300px);
+        }
+        .pre{
+            transform: translateX(150px)translateY(-580px);
+            
+        }
+        .let{
+            transform: translateX(50px)translateY(-290px);
+        }
+        .ok{
+            transform: translateX(600px)translateY(-1090px);
+        }
+        .bottom{
+        border-radius: 60px 60px 0px 0px;
+        height: 100px;
+        background-color:blue;
+        transform: translateY(-100px);
+        
+        }
+        .b2{
+           color: white;
+           text-align: center;
+           
+        }
+        .b3{
+            transform: translateY(-400px)translateX(250px);
+        }
+        .b4{
+            transform: translateY(-805px)translateX(440px);
+        }
+        .b5{
+            transform: translateX(630px)translateY(-1209px);
+        }
+        .b1{
+            transform: translateX(3px);
+        }
+        .b6{
+            transform: translateY(-2010px)translateX(1009px);
+            height: 250px;
+            background-color: white;
+            width: 180px;
+            border-radius: 20px;
+        }
+        .cat{
+            transform: translateY(-1000px);
+            text-align: center;
+                                  
+        }
+        .div{
+        transform: translateX(80px)translateY(-900px);
+        height: 10px;
+        }
+       </style> 
+</head>
+<body >
+   <div class="container">
+    <div class="lubox">
+        <img src="images/logo-1.png"  alt="" style="width: 200px;height: 80px;">
+       
+    </div>
+     <div class="box2">
+        <b><a href="Home" style="text-decoration: none; color: white;background-color: rgb(83, 83, 223);padding: 10px;border-radius: 10px;">Home</a></b>
+        <b><a href="Our shop" style="text-decoration: none; color: white;margin-left: 50px;background-color: rgb(83, 83, 223);padding: 10px;border-radius: 10px;">Our shop</a></b>
+        <b><a href="Product Details" style="text-decoration: none; color: white;margin-left: 50px;background-color: rgb(83, 83, 223);padding: 10px;border-radius: 10px;">Product Details</a></b>
+        <b><a href="Contact Us" style="text-decoration: none; color: white;margin-left: 50px;background-color: rgb(83, 83, 223);padding: 10px;border-radius: 10px;">Contact Us</a></b>
+        <b class="sign" style="margin-left: 50px;">SIGN IN</b>
+     </div>
+     <div class="writing">
+        <p style="margin-bottom: 1px;">WELCOME TO LUGX</p>
+        <p style="font-size: 30px;font-weight: 800;margin-top: 5px;">BEST GAMING SITE EVER </p>
+        <img src="images/caption-dec.png" alt="" style="transform: translateX(60px)translateY(-50px);margin-bottom: 1px;margin-top: 1px;">
+        <p class="w1" style="font-size: 17px;margin-top: 1px;margin-bottom: 1px;">Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Error esse et vel sunt <br> laboriosam magnam quia nesciunt eius ut dolor.</p>
+   </div>
+   <div class="writing2">
+    <p style="text-align:left;">Type something <b class="who" style="height: 30px;"> SEARCH NOW</b></p>
+    
+   </div>
+   <div class="anime">
+    <img src="images/banner-image.jpg" alt="" style="border-radius: 20px; width: 300px;height: 300px;">
+   </div>
+   <div class="tiny4">
+    <p>-40%</p>
+   </div>
+    <div class="mice">
+        <p><img src="/ZION.2/Gaming/images/featured-01.png" alt="" style="background-color: blue;border-radius: 10px;align-items: center;margin-top: 50px;margin-left: 95px;"> </p>
+        <p style="margin-left: 60px;font-weight: 800;">FREE STORAGE</p>
+    </div>
+    <div class="mice2">
+        <p><img src="/ZION.2/Gaming/images/featured-02.png" alt="" style="background-color: blue;border-radius: 10px;align-items: center;margin-top: 50px;margin-left: 95px;"></p>
+        <p style="margin-left: 80px;font-weight: 800;">USER MORE</p>
+    </div>
+    <div class="mice3">
+        <p><img src="/ZION.2/Gaming/images/featured-03.png" alt="" style="background-color: blue;border-radius: 10px;margin-top: 50px;margin-left: 95px;"></p>
+        <p style="margin-left: 80px;font-weight: 800;">REPLY READY</p>
+    </div>
+    <div class="mice4">
+        <p><img src="/ZION.2/Gaming/images/featured-04.png" alt="" style="background-color: blue;border-radius: 10px;margin-top: 50px;margin-left: 95px;"></p>
+        <p style="margin-left: 80px;font-weight: 800;">EASY LAYOUT</p>
+    </div>
+   </div>
+   <div class="another">
+    <div class="another2">
+        <p style="color: orangered;font-size: 16px;">TRENDING</p>
+        <p style="font-size: 30px;font-weight: 900;">Trending Games </p>
+        <p class="sign" style="color: white;height: 20px;width: 100px;transform: translateX(1000px)translateY(-90px);">VIEW ALL</p>
+    </div>
+    <div class="another3">
+        <p style="height: 250px;background-color: rgb(243, 236, 236);width: 250px;border-radius: 20px;"><img src="/ZION.2/Gaming/images/categories-05.jpg" alt="" style="width: 250px; height: 200px;border-radius: 20px;"></p>
+        <p class="another4" style="height: 250px;background-color: rgb(243, 236, 236);width: 250px;border-radius: 20px;"><img src="/ZION.2/Gaming/images/categories-03.jpg" alt="" style="width: 250px;height: 200px;border-radius: 20px;"></p>
+        <p class="another5 " style="height: 250px;width: 250px;background-color: rgb(243, 236,236);border-radius: 20px;"><img src="/ZION.2/Gaming/images/trending-03.jpg" alt="" style="width: 250px;height: 200px;border-radius: 20px;"></p>
+        <p class="another6" style="height: 250px;width: 250px;background-color: rgb(243, 236, 236);border-radius: 20px;"><img src="/ZION.2/Gaming/images/trending-04.jpg" alt="" style="border-radius: 20px;height: 200px;width: 250px;"></p>
+    </div>
+   </div>
+   <div class="most">
+    <div class="most2">
+        <p style="color: orangered;font-size: 16px;">Top Games</p>
+        <p style="font-size: 30px;font-weight: 900;margin-top: 1px;">Most Played</p>
+        <p class="b1" style="background-color: white;width: 180px;height: 250px;border-radius: 20px;transform: translateX(60px);"><img src="/ZION.2/Gaming/images/categories-05.jpg" alt="" style="width: 180px;height: 150px;border-radius: 20px;"></p>
+        <p style="color: gray;transform: translateY(-100px)translateX(120px);">Adventure</p>
+        <p style="transform: translateY(-110px)translateX(113px);">Assasin Creed</p>
+        <p class="sign" style="width: 80px;height: 20px;transform: translateX(104px)translateY(-120px);">EXPLORE</p>
+        <p class="b3" style="height: 250px;width: 180px;border-radius: 20px;background-color: white;"><img src="/ZION.2/Gaming/images/top-game-02.jpg" alt="" style="height: 150px;width: 180px;border-radius: 20px;"></p>
+          <p style="color: gray;transform: translateY(-500px)translateX(300px);">Adventure</p>
+        <p style="transform: translateY(-510px)translateX(290px);">Assasin Creed</p>
+        <p class="sign" style="width: 80px;height: 20px;transform: translateX(290px)translateY(-520px);">EXPLORE</p>
+         <p class="b4" style="height: 250px;width: 180px;border-radius: 20px;background-color: white;"><img src="/ZION.2/Gaming/images/top-game-03.jpg" alt="" style="height: 150px;width: 180px;border-radius: 20px;"></p>
+          <p style="color: gray;transform: translateY(-905px)translateX(500px);">Adventure</p>
+        <p style="transform: translateY(-913px)translateX(490px);">Assasin Creed</p>
+        <p class="sign" style="width: 80px;height: 20px;transform: translateX(482px)translateY(-925px);">EXPLORE</p>
+        <p class="b5" style="height: 250px;width: 180px;border-radius: 20px;background-color: white;"><img src="/ZION.2/Gaming/images/top-game-04.jpg" alt="" style="width: 180px;height: 150px;border-radius: 20px;"></p>
+        <p style="text-align: center;color: gray;transform: translateX(75px)translateY(-1310px);">Adenture</p>
+        <p style="text-align: center;transform: translateX(75px)translateY(-1320px);">Assasin creed</p>
+        <p class="sign" style="width: 80px;height: 20px;transform: translateX(670px)translateY(-1328px);">EXPLORE</p>
+        <p  style="transform: translateY(-1610px)translateX(820px); width: 180px;height: 250px;border-radius: 20px;background-color: white;"><img src="/ZION.2/Gaming/images/top-game-05.jpg" alt="" style="width: 180px;height: 150px;border-radius: 20px;"></p>
+        <p style="transform: translateX(870px)translateY(-1710px);color: gray;">Adventure</p>
+        <p style="text-align: center;transform: translateY(-1723px)translateX(265px);">Assasin creed</p>
+         <p class="sign" style="width: 80px;height: 20px;transform: translateY(-1730PX)translateX(860px);">EXPLORE</p>
+        <div class="b6">
+            <p><img src="/ZION.2/Gaming/images/top-game-06.jpg" alt="" style="width: 180px;height: 150px;border-radius: 20px;"></p>
+            <p style="text-align: center;color: gray;transform: translateY(-10px);">Adventure</p>
+            <p style="text-align: center;transform: translateY(-20px);">Assasin creed</p>
+            <p class="sign" style="height: 20px;width: 80px;transform: translateX(45px)translateY(-25px);">EXPLORE</p>
+        </div>
+   </div>
+   <div class="cat">
+    <p  style="color: orangered;font-weight: 600;">CATEGORIES</p>
+    <P style="font-weight: 800;font-size: 24px;">TOP CATEGORIES</P>
+   </div>
+   <div class="div">
+      <p style="transform:  translateX(30px); height: 250px;width: 200px;border-radius: 20px;background: linear-gradient(rgb(10, 14, 238));color: white;text-align: center;">Action<img src="/ZION.2/Gaming/images/categories-01.jpg" alt="" style="width: 200px;height: 224px;border-radius: 20px;"></p>
+       <p style="height: 250px;width: 200px;border-radius: 20px;background: linear-gradient(rgb(10, 14, 238));color: white;text-align: center;transform: translateX(270px)translateY(-265px);">Action<img src="/ZION.2/Gaming/images/single-game.jpg" alt="" style="width: 200px;height: 224px;border-radius: 20px;"></p>
+       <p style="height: 250px;width: 200px;border-radius: 20px;background: linear-gradient(rgb(10, 14, 238));color: white;text-align: center;transform: translateX(510px)translateY(-530px);">Action<img src="/ZION.2/Gaming/images/trending-02.jpg" alt="" style="width: 200px;height: 224px;border-radius: 20px;"></p>
+         <p style="height: 250px;width: 200px;border-radius: 20px;background: linear-gradient(rgb(10, 14, 238));color: white;text-align: center;transform: translateX(750px)translateY(-795px);">Action<img src="/ZION.2/Gaming/images/trending-03.jpg" alt="" style="width: 200px;height: 224px;border-radius: 20px;"></p>
+          <p style="height: 250px;width: 200px;border-radius: 20px;background: linear-gradient(rgb(10, 14, 238));color: white;text-align: center;transform: translateX(990px)translateY(-1060px);">Action<img src="/ZION.2/Gaming/images/categories-05.jpg" alt="" style="width: 200px;height: 224px;border-radius: 20px;"></p>
+   </div>
+
+
+ <div class="last">
+  <div class="cod">
+    <img src="/ZION.2/Gaming/images/cta-bg-1.jpg" alt="" style="width: 300px;height: 300px;border-radius: 10px;">
+  </div>
+  <div class="pre">
+    <p  style="background-color: rgb(233, 230, 230);width: 300px;height: 300px;border-radius: 10px;color: orangered;padding: 20px;font-weight: 700;">OUR SHOP</p>
+    <P class="let" style="font-weight: 900;">Go Pre-Order Buy <br>& Get Best <b style="color: blue;">Prices</b> <br>For You!</P>
+    <p class="let" style="font-weight: 100;font-size: 12px;">Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit. <br> Perferendis asperiores corporis fugit!</p>
+    <p class="sign" style="color: white;height: 20px;width: 100px;transform: translateY(-250px)translateX(50px);">SHOP MORE</p>
+  </div>
+   <div class="ok">
+    <p  style="background-color: rgb(233, 230, 230);width: 300px;height: 300px;border-radius: 10px;color: orangered;padding: 20px;font-weight: 700;">NEWSLETTER</p>
+    <P class="let" style="font-weight: 900;font-size: 25px;">Get Up To $100 off<br>Just Buy <b style="color: blue;">Subscribes</b> <br>Newsletter!</P>
+    
+    <p class="sign" style="color: white;height: 20px;width: 100px;transform: translateY(-250px)translateX(50px);">SUBSCRIBE </p>
+  </div>
+ </div>
+ <div class="bottom">
+    <div class="b2">
+        <p>Copyright 2018 LUGX Gaming Company. All rights reserved. Design <a href="TemplateMo" style="color: white;">TemplateMo</a> </p>
+    </div>
+ </div>
+ 
+
+
+
+
+
+
+
+
+</body>
+</html>

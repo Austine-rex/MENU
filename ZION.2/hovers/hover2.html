@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             position: relative;
+             overflow: hidden;
+             box-shadow: 0px 0px 5px 5px rgb(221, 220, 220);
+             border-radius: 20px;
+        }
+        .top{
+            width: 400px;
+            height: 500px;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: BLACK;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .bottom{
+        position: absolute;
+            bottom: -480px;
+            width: 400px;
+            color: white;
+            text-align: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            z-index: 2;
+            align-items: center;
+            overflow: hidden;
+            background: linear-gradient( to top right, rgb(255, 81, 0), rgb(10, 10, 212));
+        }
+        .main:hover .bottom {
+            bottom: -0px;
+            transition: 4s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+          <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background: linear-gradient( to top right, rgb(255, 81, 0), rgb(10, 10, 212));color: white;">HOVER ME</h1>
+        </div>
+        <div class="bottom">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum saepe eum aliquam!</p>
+        </div>
+    </div>
+</body>
+</html>

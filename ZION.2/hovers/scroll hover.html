@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .scroll-container{
+            position: relative;
+            width: 80%;
+            margin: 40px auto;
+        }
+        .content{
+            display: flex;
+            overflow-x: auto;
+            padding: 10px;
+            scroll-behavior: smooth;
+        }
+        .item{
+            width: 200px;
+            height: 100px;
+            background-color: #ccc;
+            margin: 10px;
+            flex-shrink: 0;
+        }
+        .scroll-left, .scroll-right {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        .scroll-left {
+            left: -20px;
+        }
+        .scroll-right {
+            right: -20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container">
+        <div class="content">
+            <!--content that exceeds the container width-->
+              <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <!--Add more items here-->
+        </div>
+        <button class="scroll left">&lt</button>
+        <button class="scroll right">&gt</button>
+    </div>
+</body>
+</html>

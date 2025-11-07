@@ -1,0 +1,183 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+overflow-x: hidden;
+}
+.container{
+    padding: 0px;
+}
+.sunny{
+    background-image: url(../sunnyside-agency-landing-page-main/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    height: 870px;
+    background-size: cover;
+}
+.coffee{
+    padding: 10px;
+font-size: 40px;
+font-weight: 900;
+color: white;
+margin-left: 20px;
+
+}
+.links{
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 910px;
+    margin-top: -80px;
+    align-items: center;
+font-weight: 400;
+
+color: white;
+}
+.we{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    margin-top: 80px;
+
+
+}
+.this{
+    display: grid;
+    grid-template-columns: 900px 900px;
+    grid-template-rows:800px ;
+    margin-top: 158px;
+}
+.pt2{
+    margin-top: 170px;
+    
+}
+.pt3{
+    margin-top: -15px;
+    transition: 0.3s ease;
+}
+.pt3:hover {
+   transform: scale(1.05);
+    cursor: pointer;
+}
+
+.t1{
+    display: grid;
+    grid-template-columns: 900px 900px;
+    grid-template-rows:800px ;
+}
+.pt4{
+ transition: 0.3s ease;
+}
+.pt4:hover {
+     transform: scale(1.05);
+    cursor: pointer;
+}
+.pt5{
+    margin-top: 170px;
+}
+.t2{
+      display: grid;
+    grid-template-columns: 900px 900px;
+    grid-template-rows:800px ;
+}
+.ct1{
+     transition: 0.3s ease;
+}
+.ct1:hover {
+         transform: scale(1.05);
+    cursor: pointer;
+}
+.ct2{
+    text-align: center;
+    opacity: 0.5;
+    margin-top: -350px;
+}
+.ct3{
+     transition: 0.3s ease;
+}
+.ct3:hover {
+  transform: scale(1.05);
+    cursor: pointer;
+}
+.ct4{
+     text-align: center;
+    opacity: 0.5;
+    margin-top: -350px;
+}
+.ok{
+    background-color: white;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+}
+.ppl{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 50px;
+
+}
+.under{
+    text-align: center;
+    color: rgb(51, 50, 50);
+    font-weight: 400;
+    font-size: 21px;
+     display: grid;
+    grid-template-columns: 500px 600px 600px;
+    grid-template-rows: 50px;
+}
+.bow{
+    text-align: center;
+    margin-top: 200PX;
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    display: grid;
+    grid-template-columns: 500px 600px 600px;
+    grid-template-rows: 80px;
+
+}
+.cr7{
+     text-align: center;
+    color: gray;
+    font-weight: 300;
+    font-size: 20px;
+     display: grid;
+    grid-template-columns: 500px 600px 600px;
+    grid-template-rows: 50px;
+    margin-top: -30px;
+}
+.siu{
+    display: flex;
+    flex-direction: row;
+      transition: 0.3s ease;
+}
+.siu:hover {
+     transform: scale(1.05);
+    cursor: pointer;
+}
+.blue{
+    background-color: rgb(128, 233, 198);
+    height: 270px;
+    margin-top: -55px;
+    padding: 80px;
+}
+.cole{
+ text-align: center;
+ color: rgb(33, 87, 69);
+ font-size: 35px;
+ font-weight: 900;
+ 
+}
+.hall{
+    text-align: center;
+ color: rgb(33, 87, 69);
+ font-size: 23px;
+ font-weight: 400;
+}
+.h2{
+    text-align: center;
+ color: rgb(33, 87, 69);
+ font-size: 35px;
+ font-weight: 800;
+ margin-top: 0px;
+}
+

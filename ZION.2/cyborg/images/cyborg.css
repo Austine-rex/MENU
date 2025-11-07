@@ -1,0 +1,134 @@
+
+
+body{
+    background:linear-gradient(rgb(34, 34, 34)) ;
+    overflow-x: hidden;
+}
+.container{
+padding: 50px;
+
+}
+.logo{
+   
+}
+input{
+    color: rgb(156, 155, 155);
+    width: 200px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 30px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 300px;
+    transform: translateY(-20px);
+    text-align: center;
+    
+}
+.links{
+transform: translateX(1050px)translateY(-70px);
+
+}
+
+.border{
+    height: 2100px;
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66);
+    transform: translateY(-40px);
+    width: 1585px;
+    padding: 40px;
+}
+.think{
+transform: translateX(40px);
+width: 1500px;
+}
+.text{
+    transform: translateY(-500px)translateX(90px);
+}
+.button{
+    padding: 10px;
+    background-color: rgb(226, 23, 226);
+    color: white;
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    transform: translateY(-500px)translateX(90px);
+}
+.button:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(226, 23, 226);
+}
+.most{
+   height: 730px;
+   padding: 5px;
+   padding-left: 10px;
+   background-color: black;
+   width: 1500px;
+   transform: translateY(-1570px)translateX(85px);
+   border-radius: 20px;
+  
+}
+.pic{
+ display: grid;
+   grid-template-rows: 300px 300px;
+   grid-template-columns:  300px  300px  300px 300px;
+   border-radius: 20px;
+   column-gap: 50px;
+   row-gap: 0px;
+}
+.id1{
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+.button2{
+    padding: 10px;
+    background-color: rgb(226, 23, 226);
+    color: white;
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    transform: translateY(-10px)translateX(580px);
+}
+.button2:hover {
+      transition: 0.7s;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(226, 23, 226);
+}
+.your{
+     height: 600px;
+   padding: 10px;
+   padding-left: 10px;
+   background-color: black;
+   width: 1500px;
+   transform: translateY(-1500px)translateX(85px);
+   border-radius: 20px;
+}
+.your2{
+    display: grid;
+    grid-template-columns: 200PX 250px 250px 250px 250px 250px ;
+    grid-template-rows: 150px 150px 150px;
+    padding: 10px;
+}
+.button3{
+     padding: 10px;
+    border: rgb(226, 23, 226) 1px solid;
+    color: rgb(226, 23, 226);
+    border-radius: 30px;
+    width: 160px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+   margin-top: 50px;
+}
+.button3:hover {
+     transition: 0.7s;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
