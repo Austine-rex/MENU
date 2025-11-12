@@ -598,19 +598,19 @@ padding-top: 2rem;
     .waffle-part{
      height: 17rem;
      border-radius: 20px;
-     background-image: url(./images/image-waffle-desktop.jpg);
+     background-image: url("./images/image-waffle-desktop.jpg");
      background-size: cover;
     }
     .creme-part{
         background-size: cover;
         height: 17rem;
         border-radius: 20px;
-        background-image: url(./images/image-creme-brulee-desktop.jpg);
+        background-image: url("./images/image-creme-brulee-desktop.jpg");
     }
     .macron-part{
         height: 17rem;
         border-radius: 20px;
-        background-image: url(./images/image-macaron-desktop.jpg);
+        background-image: url("./images/image-macaron-desktop.jpg");
         background-size: cover;
     }
     .add-part{
@@ -641,37 +641,37 @@ padding-top: 2rem;
 .classic-part{
       height: 17rem;
         border-radius: 20px;
-        background-image: url(./images/image-tiramisu-desktop.jpg);
+        background-image: url("./images/image-tiramisu-desktop.jpg");
         background-size: cover;
 }
 .backlava-part{
     height: 17rem;
     background-size: cover0;
     border-radius: 20px;
-    background-image: url(./images/image-baklava-desktop.jpg);
+    background-image: url("./images/image-baklava-desktop.jpg");
 }
 .pie-part{
     background-size: cover;
     height: 17rem;
     border-radius: 20px;
-    background-image: url(./images/image-meringue-desktop.jpg);
+    background-image: url("./images/image-meringue-desktop.jpg");
 }
 .cake-part{
     background-size: cover;
     height: 17rem;
     border-radius: 20px;
-    background-image: url(./images/image-cake-desktop.jpg);
+    background-image: url("./images/image-cake-desktop.jpg");
 }
 .brownnie-part{
     height: 17rem;
     background-size: cover;
     border-radius: 20px;
-    background-image: url(./images/image-brownie-desktop.jpg);
+    background-image: url("./images/image-brownie-desktop.jpg");
 }
 .panna-part{
      height: 17rem;
      background-size: cover;
     border-radius: 20px;
-    background-image: url(./images/image-panna-cotta-desktop.jpg);
+    background-image: url("./images/image-panna-cotta-desktop.jpg");
 }
 }
