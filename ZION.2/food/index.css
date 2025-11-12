@@ -1,0 +1,677 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.desert-header{
+padding: 3rem 1.5rem 3rem 1.5rem;
+}
+.space{
+
+}
+.food{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(80, 21, 21);
+}
+.main-part{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.waffle-mobile {
+    
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-waffle-mobile.jpg);
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.cart{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.cart img{
+    height: 1.5rem;
+
+}
+.c2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.cart:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.cart:hover img{
+    filter: brightness(0)invert(1);
+}
+.writing{
+    padding-top: 3rem;
+}
+.w2{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.w3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.w4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.bruele-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-creme-brulee-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.add{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.add img{
+    height: 1.5rem;
+
+}
+.a2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.add:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.add:hover img{
+    filter: brightness(0)invert(1);
+}
+.bruele-writing{
+    padding-top: 3rem;
+}
+.b2{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.b3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.b4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.macron-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-macaron-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.mac{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.mac img{
+    height: 1.5rem;
+
+}
+.m2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.mac:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.mac:hover img{
+    filter: brightness(0)invert(1);
+}
+.macron-writing{
+    padding-top: 3rem;
+}
+.m5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.m3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.m4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+
+.classic-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-tiramisu-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.class{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.class img{
+    height: 1.5rem;
+
+}
+.face2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.class:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.class:hover img{
+    filter: brightness(0)invert(1);
+}
+.class-writing{
+    padding-top: 3rem;
+}
+.f5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.f3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.f4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.pist-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-baklava-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.pist{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.pist img{
+    height: 1.5rem;
+
+}
+.pist2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.pist:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.pist:hover img{
+    filter: brightness(0)invert(1);
+}
+.pist-writing{
+    padding-top: 3rem;
+}
+.ps5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.ps3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.ps4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.pie-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-meringue-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.pie{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.pie img{
+    height: 1.5rem;
+
+}
+.pie2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.pie:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.pie:hover img{
+    filter: brightness(0)invert(1);
+}
+.pie-writing{
+    padding-top: 3rem;
+}
+.p5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.p3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.p4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.cake-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-cake-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.cake{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.cake img{
+    height: 1.5rem;
+
+}
+.cake2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.cake:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.cake:hover img{
+    filter: brightness(0)invert(1);
+}
+.cake-writing{
+    padding-top: 3rem;
+}
+.k5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.k3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.k4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.brown-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-brownie-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.brown{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.brown img{
+    height: 1.5rem;
+
+}
+.brown2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.brown:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.brown:hover img{
+    filter: brightness(0)invert(1);
+}
+.brown-writing{
+    padding-top: 3rem;
+}
+.b5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.b3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.b4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+
+.panna-mobile {
+    transform: translateY(20px);
+    width: 100%;
+    background-image: url(/ZION.2/food/images/image-panna-cotta-mobile.jpg);
+    background-size: cover;
+    
+    border-radius: 1rem;
+    padding-top: 2.3rem;
+    height: 17rem;
+}
+.panna{
+    margin-left: 70px;
+    margin-top: 205px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+}
+.panna img{
+    height: 1.5rem;
+
+}
+.panna2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.panna:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.panna:hover img{
+    filter: brightness(0)invert(1);
+}
+.panna-writing{
+    padding-top: 3rem;
+}
+.co5{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.co3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.co4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+.footer-part{
+     padding: 0rem 1.5rem 2rem 1.5rem;
+}
+.your-cart{
+padding-top: 2rem;
+}
+.zero{
+    background-color: white;
+    height: 17rem;
+    border-radius: 20px;
+    padding: 2rem 1.6rem 2rem 1.6rem;
+    box-shadow: 3px 3px 3px rgb(216, 214, 214);
+}
+.z1{
+    color: brown;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.zero img{
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+.z2{
+    color: brown;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.main-desktop{
+    display: none;
+}
+.space-desktop{
+    display: none;
+}
+@media screen and (min-width:868px) {
+    body{
+        padding:3rem 9rem 3rem 9rem ;
+    }
+    .space{
+        display: none;
+    }
+    .space-desktop{
+    display: grid;
+    grid-template-columns: 65rem 25rem;
+    grid-template-rows: 3rem;
+}
+.food-desktop{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(80, 21, 21);
+}
+    .main-desktop{
+        display: grid;
+        
+        grid-template-columns: 20rem 20rem 20rem;
+        gap: 20px;
+        
+    }
+    .main-mobile{
+        display: none;
+    }
+    .footer-part{
+        display: none;
+    }
+    .waffle-part{
+     height: 17rem;
+     border-radius: 20px;
+     background-image: url(./images/image-waffle-desktop.jpg);
+     background-size: cover;
+    }
+    .creme-part{
+        background-size: cover;
+        height: 17rem;
+        border-radius: 20px;
+        background-image: url(./images/image-creme-brulee-desktop.jpg);
+    }
+    .macron-part{
+        height: 17rem;
+        border-radius: 20px;
+        background-image: url(./images/image-macaron-desktop.jpg);
+        background-size: cover;
+    }
+    .add-part{
+         margin-left: 55px;
+    margin-top: 245px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(223, 220, 220);
+    width: 12rem;
+    height: 3rem;
+    border-radius: 30px;
+   padding: 1rem;
+   display: flex;
+   gap: 15px;
+    
+    }
+    .add2{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.add-part:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.5s;
+}
+.add-part:hover img{
+    filter: brightness(0)invert(1);
+}
+.classic-part{
+      height: 17rem;
+        border-radius: 20px;
+        background-image: url(./images/image-tiramisu-desktop.jpg);
+        background-size: cover;
+}
+.backlava-part{
+    height: 17rem;
+    background-size: cover0;
+    border-radius: 20px;
+    background-image: url(./images/image-baklava-desktop.jpg);
+}
+.pie-part{
+    background-size: cover;
+    height: 17rem;
+    border-radius: 20px;
+    background-image: url(./images/image-meringue-desktop.jpg);
+}
+.cake-part{
+    background-size: cover;
+    height: 17rem;
+    border-radius: 20px;
+    background-image: url(./images/image-cake-desktop.jpg);
+}
+.brownnie-part{
+    height: 17rem;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url(./images/image-brownie-desktop.jpg);
+}
+.panna-part{
+     height: 17rem;
+     background-size: cover;
+    border-radius: 20px;
+    background-image: url(./images/image-panna-cotta-desktop.jpg);
+}
+}
